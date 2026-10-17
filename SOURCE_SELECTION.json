@@ -1,0 +1,60 @@
+{
+  "schema": "casimirbot.codex_anchors_source_selection.v1",
+  "status": "private-review-only",
+  "sourceCommit": "c5fbb6cc9153fca800837e731c55e9839937badf",
+  "sourceBoundary": "Exact committed codex/anchors utility files; no linked private documentation or ideology data",
+  "files": [
+    {
+      "path": "codex/anchors/README.md",
+      "gitBlob": "3c568e1c85debb463d145803df321a26e8cb2e94",
+      "bytes": 1252,
+      "sha256": "647a1ab21a40380a07eabe825202f7732b940b2c61903f02486794cde43aa76d"
+    },
+    {
+      "path": "codex/anchors/anchors.config.json",
+      "gitBlob": "53d2a8cce07cf61f8068093d3da54e2f8419902c",
+      "bytes": 3655,
+      "sha256": "d9c902b9bf261016b2c00e5b6f7f01c4828279865eff3a338df6f26e225c6da6"
+    },
+    {
+      "path": "codex/anchors/formatter.ts",
+      "gitBlob": "2d50af5d85fc1182a23ae37a7f3fc30f9995a514",
+      "bytes": 900,
+      "sha256": "03212138965d6d367246c033b99f855533ac4cd39933b2623675aef15e28fb40"
+    },
+    {
+      "path": "codex/anchors/ideologyIndex.ts",
+      "gitBlob": "3df7350bf233e5aa34f4eb5ba933d99d03461d67",
+      "bytes": 823,
+      "sha256": "1071c6f4344a41a3347d08c20ca472f7b111f2eec5935125aa8bdda1c620ae7c"
+    },
+    {
+      "path": "codex/anchors/retriever.ts",
+      "gitBlob": "e8bd4bb2654f3b544362b088fb7eded98010d154",
+      "bytes": 4080,
+      "sha256": "75a5569002f3b89631af5adcf1a5854ecf3e5c9ddc7c18d50cab289cd9d6bfc4"
+    },
+    {
+      "path": "codex/anchors/router.ts",
+      "gitBlob": "a33cea47aab9b93ecf1383c1a82816d8ba28c779",
+      "bytes": 920,
+      "sha256": "f26c3ceb128bc5355d0a091f17add6bcf57af4695f5c5b2830dc096b39554539"
+    },
+    {
+      "path": "codex/anchors/types.ts",
+      "gitBlob": "9c654195619f7fa4e0677f906696bfac9279757c",
+      "bytes": 1583,
+      "sha256": "a37d97adf156eb1dbd32ec96a9a7b01d4725eaa441957670c436b52b907d1173"
+    },
+    {
+      "path": "codex/anchors/verifier.ts",
+      "gitBlob": "4056e575e9ff85c0f72e4a9d11feb752fde61558",
+      "bytes": 3856,
+      "sha256": "cb8ee5d77bebcf504749d04961a167b3a97c6e9c644c5ba9c9015d98acb12946"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "bytes": 17069
+  }
+}
