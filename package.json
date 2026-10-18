@@ -1,6 +1,6 @@
 {
   "name": "casimirbot-anchors-source-preview",
-  "version": "0.0.0-private-review",
+  "version": "0.0.0-source-preview",
   "private": true,
   "type": "module",
   "scripts": {
