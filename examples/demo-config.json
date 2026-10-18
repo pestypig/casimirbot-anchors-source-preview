@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "anchors": {
+    "minPerAnswer": 1,
+    "maxPerAnswer": 3,
+    "modePolicy": {
+      "chat": { "missingAnchorBehavior": "warn-and-drop" },
+      "patch": { "missingAnchorBehavior": "error" }
+    }
+  },
+  "ideology": {
+    "ideologyJsonPath": "examples/ideology.json",
+    "maxNodes": 2
+  },
+  "architecture": {
+    "defaultBundle": [
+      { "path": "examples/docs/architecture.md", "why": "Synthetic module map." },
+      { "path": "examples/docs/operations.md", "why": "Synthetic operation boundary." }
+    ],
+    "subsystemRoots": [],
+    "topicBundles": []
+  },
+  "router": {
+    "architectureKeywords": ["architecture", "module"],
+    "ideologyKeywords": ["values"],
+    "hybridTieBreak": "architecture-first"
+  },
+  "security": {
+    "allowedAnchorRoots": ["examples/docs/"]
+  }
+}
